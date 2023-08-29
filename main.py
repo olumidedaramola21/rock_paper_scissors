@@ -28,3 +28,22 @@ while True:  # Main game loop
             break
         else:
             print("Type one of R, P, S or Q")
+
+    # Display what the player chose:
+    if player_move == "R":
+        print("Rock versus...")
+        player_move = "Rock"
+    elif player_move == "P":
+        print("Paper versus...")
+        player_move = "Paper"
+    elif player_move == "S":
+        print("Scissors versus...")
+        player_move = "Scissors"
+
+    # Count to three with dramatic pauses
+    time.sleep(0.5)
+    print("1...")
+    time.sleep(0.25)
+    print("2...")
+    time.sleep(0.25)
+    print("3...")
