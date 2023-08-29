@@ -50,6 +50,7 @@ while True:  # Main game loop
 
     # Display what the computer chose:
     random_number = random.randint(1, 3)
+    print(random_number)
     if random_number == 1:
         computer_move = "Rock"
     elif random_number == 2:
@@ -58,3 +59,26 @@ while True:  # Main game loop
         computer_move = "Scissors"
     print(computer_move)
     time.sleep(0.25)
+
+    # Display and record win/loss/tie
+    if player_move == computer_move:
+        print("It's a tie!")
+        ties += 1
+    elif player_move == "Rock" and computer_move == "Scissors":
+        print("You win!")
+        wins += 1
+    elif player_move == "Paper" and computer_move == "Rock":
+        print("You win!")
+        wins += 1
+    elif player_move == "Scissors" and computer_move == "Paper":
+        print("You win!")
+        wins += 1
+    elif player_move == "Scissors" and computer_move == "Rock":
+        print("You lose!")
+        loses += 1
+    elif player_move == "Rock" and computer_move == "Paper":
+        print("You lose!")
+        loses += 1
+    elif player_move == "Paper" and computer_move == "Scissors":
+        print("You lose!")
+        loses += 1
