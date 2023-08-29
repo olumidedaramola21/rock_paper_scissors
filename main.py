@@ -14,4 +14,4 @@ print(
 # These variables keep track of wins, losses and ties
 wins = 0
 loses = 0
-tries = 0
+ties = 0
