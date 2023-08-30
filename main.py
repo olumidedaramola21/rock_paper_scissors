@@ -50,7 +50,6 @@ while True:  # Main game loop
 
     # Display what the computer chose:
     random_number = random.randint(1, 3)
-    print(random_number)
     if random_number == 1:
         computer_move = "Rock"
     elif random_number == 2:
