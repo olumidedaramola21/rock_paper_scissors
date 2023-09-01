@@ -1,3 +1,17 @@
+# Rock Paper Scissors
+
+
+
+## Table of Contents
+
+- [Overview](#overview)
+- [How to Play](#how-to-play)
+- [Features](#features)
+- [Setup](#setup)
+- [Contributing](#contributing)
+- [License](#license)
+
+
 ## Setup
 
 1. Clone or download this repository to your local machine.
