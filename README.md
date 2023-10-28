@@ -1,19 +1,5 @@
 # Rock, Paper, Scissors Game
-
-## Introduction
-
 This is a simple command-line implementation of the classic Rock, Paper, Scissors game in python. It allow users to play against computer and test their luck and strategy.
-
-
-
-## Table of Contents
-
-- [Features](#features)
-- [Setup](#setup)
-- [How to Play](#how-to-play)
-- [Contributing](#contributing)
-- [License](#license)
-
 
 ## Features
 - Play Rock, Paper, Scissors against the computer.
@@ -22,7 +8,6 @@ This is a simple command-line implementation of the classic Rock, Paper, Scissor
 - A fun and interactive way to spend some time.
 
 ## Setup
-
 1. Clone or download this repository to your local machine.
 2. Open a terminal and navigate to the project directory.
 3. Run the game using the command: `python main.py`
@@ -32,10 +17,4 @@ This is a simple command-line implementation of the classic Rock, Paper, Scissor
 - The computer will make its choice, and the winner will be displayed.
 - The game will keep track of your score as you continue to play.
 
-## Contributing
-
 Contributions are welcome! If you find any issues or want to enhance the game, feel free to fork this repository and submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
